@@ -86,34 +86,50 @@ Each Amazon EC2 instance type is grouped under an instance family, which are opt
     - Can be used for a variety of diverse workloads such as web servers or code repositories
   - **Compute Optimized**
     - For compute intensive tasks such as gaming servers, High performance computing (HPC), and scientific modeling
-  - **Memory Optimized** - For memory intensive tasks
+  - **Memory Optimized** 
+    - For memory intensive tasks
   - **Accelerated Computing**
     - Good for floating point number calculations, graphics processing, or data pattern matching
     - Utilizes hardware accelerators
-  - **Storage Optimized** - Good for high performance on locally stored data
+  - **Storage Optimized** 
+    - Good for high performance on locally stored data
 
 ### Amazon EC2 Pricing
 
 - Amazon EC2 has multiple purchasing options:
   - **On-Demand**
-    - Only pay for what you run.  No long term commitments or contracts are needed.  This is great for when you're just getting started
+    - Ideal for short-term, irregular workloads that cannot be interrupted.
+    - Only pay for what you run.  No long term commitments or contracts are needed. This is great for when you're just getting started.
+    - NOT recommended for workloads that last a year or longer because these workloads can experience greater cost savings using Reserved Instances.
   - **Savings Plans**
+    - Ideal for workloads that involve a consistent amount of compute usage over a 1-year or 3-year term. 
     - Offers low prices on EC2 usage in exchange for a commitment measured in dollars per hour for a 1-year or 3-year term
     - Very flexible and can provide savings of up to 72%
   - **Reserved Instances**
     - Used for steady state workloads or workloads with predictable usage and can offer up to a 75% discount (1 or 3-year term)
     - Can be paid *all upfront*, *partial upfront*, *no upfront*
   - **Spot Instances**
+    - Ideal for workloads with flexible start and end times, or that can withstand interruptions.
     - Request spare Amazon EC2 instance capacity for up to 90% off the on-demand price
     - Amazon can reclaim the instance any time they need, and they give you a 2 minute warning
     - Good for batch workloads
   - **Dedicated Hosts**
+    - Most expensive
+    - Physical servers with Amazon EC2 instance capacity that is fully dedicated to your use. 
     - Used for meeting certain compliance requirements and no one else will share your host
 
 ### Amazon EC2 Scaling
 
 - **Scalability** involves beginning with only the resources you need and designing your architecture to automatically respond to changing demand by scaling in or out.  As a result, you pay for only the resources you use.
 - You can achieve automatic scaling by using the AWS service **Amazon EC2 Auto Scaling**
+- 2 approaches: 
+  1. Dynamic scaling responds to changing demand. 
+  2. Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.
+> To scale faster, you can use dynamic scaling and predictive scaling together.
+- steps:
+  1. set the minimum number of Amazon EC2 instances.
+  2. set the desired capacity at two Amazon EC2 instances even though your application needs a minimum of a single Amazon EC2 instance to run.
+  3. set the maximum capacity.
 
 #### Amazon EC2 Auto Scaling
 
