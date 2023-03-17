@@ -80,6 +80,7 @@ If you run your own data center, you have to decide what to do if and when disas
   - A ``Domain Name Service (DNS)`` that directs customers to the direct web locations with reliable, low latency
 
 ```AWS Outposts```
+  - Extend AWS infrastructure and services to your on-premises data center.
   - When a company wants to install and use an AWS on it's premises, AWS will come install the services right inside your own data center
   - Still owned and operated by AWS, but with functionality strict to your premises
   - Not a solution most customers would need
