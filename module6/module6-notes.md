@@ -202,9 +202,8 @@ in-transit means that the data is traveling between A and B, where A is the AWS 
 
 ## Additional Resources
 
-- [Security, Identity, and Compliance on AWS]([https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html](https://aws.amazon.com/products/security))
+- [Security, Identity, and Compliance on AWS](https://aws.amazon.com/products/security)
 - [Whitepaper: Introduction to AWS Security](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html)
-- [Whitepaper: Amazon Web Services - Overview of Security Processes]([https://aws.amazon.com/products/storage](https://docs.aws.amazon.com/whitepapers/latest/aws-overview-security-processes/aws-overview-security-processes.pdf))
-- [AWS Security Blog]([https://aws.amazon.com/blogs/storage/](https://aws.amazon.com/blogs/security/))
+- [Whitepaper: Amazon Web Services - Overview of Security Processes](https://aws.amazon.com/blogs/security/)
 - [AWS Compliance](https://aws.amazon.com/compliance)
-- [AWS Customer Stories: Security, Identity, and Compliance]([is-category=category%23storage](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23security-identity-compliance))
+- [AWS Customer Stories: Security, Identity, and Compliance](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23security-identity-compliance)
