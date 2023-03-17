@@ -179,28 +179,34 @@ Each Amazon EC2 instance type is grouped under an instance family, which are opt
 
 ### Serverless
 
-- Serverless means you cannot see or access the underlying infrastructure/instances hosting your application.  With serverless computing, you can focus more on innovating new products and features instead of maintaining servers. Another benefit of serverless computing is the flexibility to scale serverless applications automatically. Serverless computing can adjust the applications' capacity by modifying the units of consumptions, such as throughput and memory.
-- **AWS Lambda**
+- Serverless means you cannot see or access the underlying infrastructure/instances hosting your application.  
+- With serverless computing, you can focus more on innovating new products and features instead of maintaining servers. 
+- Another benefit of serverless computing is the flexibility to scale serverless applications automatically. Serverless computing can adjust the applications' capacity by modifying the units of consumptions, such as throughput and memory.
+
+#### AWS Lambda
   - While using AWS Lambda, you pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration.
   - Designed to run for less than 15 minutes
   - **Process**
     - Upload code to Lambda
-    - Set your code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
+    - Set your code to TRIGGER from an event source, such as AWS services, mobile applications, or HTTP endpoints.
     - Code runs only when triggered
     - Pay only for the compute time you use
 
 ### Container Services
 
-- A container in this scenario is a Docker container.  A container can be considered a package for your code
+- A container can be considered a package for your application's code and dependencies into a single object.
 - A **Cluster** is a number of EC2 instances running containers that are in communication with each other
-- **Amazon Elastic Container Service (Amazon ECS)**
+
+#### Amazon Elastic Container Service (Amazon ECS) support Docker containers
   - Designed to run your container applications at scale without the hassle of using **container orchestration** software
   - With Amazon ECS, you can use API calls to launch and stop Docker-enabled applications.
-- **Amazon Elastic Kubernetes Services (Amazon EKS)**
+
+#### Amazon Elastic Kubernetes Services (Amazon EKS) support Kubernetes on AWS
   - Does something similar to ECS, but with different tooling and features
   - Kubernetes is open-source software that enables you to deploy and manage containerized applications at scale
 - Both ECS and EKS can run on top of EC2 instances
-- **Amazon Fargate**
+
+#### Amazon Fargate
   - A serverless compute platform for ECS or EKS
 
 ## When To Use What
@@ -217,7 +223,7 @@ Each Amazon EC2 instance type is grouped under an instance family, which are opt
   - **Amazon EC2/AWS Fargate**
     - You need to choose if you want to manage your instance with EC2 or allow Fargate to manage it serverlessly for you
 
-## Trivia
+## Quiz
 
 - Which AWS service is the best choice for publishing messages to subscribers?
   - Amazon Simple Notification Service (Amazon SNS)
