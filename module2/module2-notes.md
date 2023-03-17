@@ -85,14 +85,14 @@ Each Amazon EC2 instance type is grouped under an instance family, which are opt
     - Balanced resources
     - Can be used for a variety of diverse workloads such as web servers or code repositories
   - **Compute Optimized**
-    - For compute intensive tasks such as gaming servers, High performance computing (HPC), and scientific modeling
+    - For a batch processing workload or compute intensive tasks such as gaming servers, High performance computing (HPC), and scientific modeling
   - **Memory Optimized** 
-    - For memory intensive tasks
+    - For workloads processing large datasets in memory (memory intensive tasks) such as high-performance databases
   - **Accelerated Computing**
-    - Good for floating point number calculations, graphics processing, or data pattern matching
+    - For floating point number calculations, graphics processing, or data pattern matching
     - Utilizes hardware accelerators
   - **Storage Optimized** 
-    - Good for high performance on locally stored data
+    - For workloads require high, sequential read and write access to large datasets or local stored data
 
 ### Amazon EC2 Pricing
 
