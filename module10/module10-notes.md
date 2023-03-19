@@ -14,7 +14,7 @@ can be implemented by a self-service tool, the Well-Architected Tool in the AWS 
 
 ***1) Operational excellence*** 
 
--> focus on running workloads
+-> focus on running workloads effectively and gain insights into their operations
 
 e.g automating changes with deployment pipelines, or responding to events that are triggered. 
 
