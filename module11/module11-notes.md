@@ -28,6 +28,13 @@ Two types of questions are included on the exam: multiple choice and multiple re
 A `multiple-choice question` has one correct response and three incorrect responses, or distractors.
 A `multiple-response question` has two or more correct responses out of five or more options.
 
+## Exam strategies
+
+- Read the full question.
+- Predict the answer before reviewing the response options.
+- Eliminate incorrect response options.
+
+
 ## Additional Resouces
 
 [AWS Certified Cloud Practitioner website](https://aws.amazon.com/certification/certified-cloud-practitioner/)
